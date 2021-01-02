@@ -1,0 +1,48 @@
+.footer {
+    height: 150px;
+    background-color: #29293f;
+    padding: 20px 80px;
+}
+.gruop {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.44;
+    color: #fff;
+    font-weight: bold;
+    width: 40%;
+}
+.a-icon {
+    /* margin-right: 43px; */
+    line-height: 1.5;
+    color: #f8f8f4;
+    text-decoration: none;
+    /* font-weight: bold; */
+    display: flex;
+}
+.a-icon:hover {
+    color: #f9d732;
+}
+.icon-git {
+    /* transform: scale(0.1); */
+    width: 30px !important;
+    height: 30px !important;
+    padding-bottom: 10px;
+}
+.icon-youtube {
+    width: 30px !important;
+    height: 30px !important;
+    padding-bottom: 10px;
+}
+.text-icon {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.btn-action {
+    font-size: 14px;
+    font-weight: bold;
+    color: #f9d732;
+}

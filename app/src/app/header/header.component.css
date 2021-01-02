@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    background-color: #f9d732;
+    height: 100px;
+    
+}
+.content {
+    /* background-color: red; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.logo {
+    transform: scale(0.4);
+}
