@@ -7,7 +7,9 @@ import { NavComponent } from './nav/nav.component';
 import {MaterialModule} from './material.module';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { HomeModule } from './home/home.module'
+import { HomeModule } from './home/home.module';
+// import { PostItemComponent } from './common/component/post-item/post-item.component';
+// import { AsideComponent } from './common/component/aside/aside.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { HomeModule } from './home/home.module'
     HeaderComponent,
     NavComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    // AsideComponent,
+    // PostItemComponent
   ],
   imports: [
     BrowserModule,

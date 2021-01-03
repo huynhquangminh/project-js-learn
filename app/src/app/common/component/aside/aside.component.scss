@@ -1,0 +1,44 @@
+.container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 1px #cecece;
+    padding: 16px 16px 10px 16px;
+    margin-top: 10px;
+  }
+  .actor-info {
+      display: flex;
+      margin-bottom: 5px;
+      .img {
+        margin-right: 10px;
+        img {
+            border-radius: 50% !important;
+        }
+      }
+      .info {
+          margin-top: 20px;
+          .name {
+            font-size: 17px;
+            font-weight: bold;
+          }
+      }
+  }
+  .follow {
+      text-align: center;
+      padding: 5px 0;
+    //   padding: 10px;
+      .icon-face {
+        width: 75px !important;
+        height: 35px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+      .icon-github {
+        width: 75px !important;
+        height: 35px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+  }
+  
+  
+  
