@@ -19,6 +19,27 @@
     flex-wrap: wrap;
     padding: 20px 40px;
 }
+.btn-more {
+    padding: 7px 20px 7px 20px;
+    border: solid 2px #29293f;
+}
+.btn-more:hover {
+    background-color: #29293f;
+    color: #f8f8f4;
+}
+.action {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    width: 100%;
+    margin-left: 45%;
+}
+
+::ng-deep.mat-button-wrapper{
+    font-family: roboto mono,monospace;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 
